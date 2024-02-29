@@ -10,3 +10,14 @@ class CarImplementation implements Car{
         return name;
      }
 }
+
+class CarDriver {
+
+ public static void main(String[] args){
+
+       CarImplementation c1 = new CarImplementation();
+      String res = c1.getCarName("Maruti-Suzuki-Brezza");
+
+       System.out.println(res);
+   }
+}
